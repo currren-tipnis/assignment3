@@ -10,5 +10,4 @@ before_install:
 script:
 - pytest
 - pytest --cov ./
-- pylint ./tweet.py
-- pylint ./tweet_test.py
+- pylint ./ass3_src.py
